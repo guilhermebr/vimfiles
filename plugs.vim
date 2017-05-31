@@ -35,6 +35,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
+"Plug 'majutsushi/tagbar'
 " ====== Languages ==========
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }

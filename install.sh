@@ -6,7 +6,7 @@ case "$(uname -s)" in
 
   Darwin)
     echo 'Mac OS X'
-    brew install neovim/neovim/neovim python3
+    brew install neovim/neovim/neovim python3 ctags
     ;;
 
   Linux)
