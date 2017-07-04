@@ -4,6 +4,8 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'drmingdrmer/vim-tabbar'
 Plug 'crusoexia/vim-monokai'
 Plug 'szw/vim-maximizer'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " ======== Project ===========
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
@@ -23,6 +25,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'tomtom/tcomment_vim'
 Plug 'easymotion/vim-easymotion'
 
+Plug 'SirVer/ultisnips'
 function! DoRemote(arg)
   UpdateRemotePlugins
 endfunction
@@ -38,7 +41,11 @@ Plug 'Shougo/neosnippet-snippets'
 "Plug 'majutsushi/tagbar'
 " ====== Languages ==========
 Plug 'fatih/vim-go', { 'for': 'go' }
-Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
-Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
+"Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+"Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
+Plug 'moby/moby', {'rtp': '/contrib/syntax/vim/'}
+Plug 'pangloss/vim-javascript'
+Plug 'leshill/vim-json'
+Plug 'mattn/emmet-vim'
 " Add plugins to &runtimepath
 call plug#end()

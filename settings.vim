@@ -121,3 +121,4 @@ endfunction
 function Multiple_cursors_after()
   let g:deoplete#disable_auto_complete = 0
 endfunction
+let g:airline_theme='solarized'
