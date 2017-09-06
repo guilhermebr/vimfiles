@@ -46,6 +46,13 @@ Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'moby/moby', {'rtp': '/contrib/syntax/vim/'}
 Plug 'pangloss/vim-javascript'
 Plug 'leshill/vim-json'
+Plug 'lervag/vimtex'
+Plug 'davidhalter/jedi-vim'
+" Frontend
 Plug 'mattn/emmet-vim'
+Plug 'othree/html5.vim'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'wookiehangover/jshint.vim'
 " Add plugins to &runtimepath
+"
 call plug#end()

@@ -6,7 +6,7 @@ case "$(uname -s)" in
 
   Darwin)
     echo 'Mac OS X'
-    brew install neovim/neovim/neovim python3 ctags the_silver_searcher
+    brew install neovim/neovim/neovim python3 ctags the_silver_searcher mactex
     ;;
 
   Linux)
@@ -14,7 +14,7 @@ case "$(uname -s)" in
     sudo apt-get install -y software-properties-common
     sudo add-apt-repository -y ppa:neovim-ppa/unstable
     sudo apt-get update -y
-    sudo apt-get install -y neovim python3-dev python3-pip exuberant-ctags
+    sudo apt-get install -y neovim python3-dev python3-pip exuberant-ctags latexmk
     ;;
   *)
     echo 'OS not detected'
