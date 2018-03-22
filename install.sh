@@ -25,7 +25,7 @@ sudo pip3 install --upgrade pip neovim
 
 echo "====> Downloading vimfiles"
 mkdir ~/.config
-git clone https://github.com/luizbafilho/vimfiles.git ~/.config/nvim
+git clone https://github.com/guilhermebr/vimfiles.git ~/.config/nvim
 
 echo "====> Installing plugins"
 nvim +PlugInstall +qa! && echo "Done! :)"
