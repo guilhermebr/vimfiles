@@ -79,6 +79,9 @@ let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 let g:go_fmt_fail_silently = 1
 
+" Jedi vim
+"let g:jedi#auto_initialization = 0
+
 let NERDTreeMapOpenVSplit='v'
 
 let g:neocomplete#enable_at_startup = 1

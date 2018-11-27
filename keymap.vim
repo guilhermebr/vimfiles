@@ -154,6 +154,16 @@ au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
 au FileType go nmap <Leader>i <Plug>(go-info)
 au FileType go nmap <F8> :TagbarToggle<CR>
 
+" Vim jedi python
+let g:jedi#goto_command = "<C-d>"
+au FileType python nmap t <C-d>
+"let g:jedi#goto_assignments_command = "<leader>g"
+"let g:jedi#goto_definitions_command = ""
+"let g:jedi#documentation_command = "K"
+"let g:jedi#usages_command = "<leader>n"
+"let g:jedi#completions_command = "<C-Space>"
+"let g:jedi#rename_command = "<leader>r"
+
 " Vim tags
 au FileType ruby nnoremap t <C-]>
 

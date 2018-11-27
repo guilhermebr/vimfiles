@@ -13,7 +13,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'dyng/ctrlsf.vim'
 Plug 'tpope/vim-obsession' " Dependency for vim-prosession
 Plug 'dhruvasagar/vim-prosession'
-Plug 'ludovicchabant/vim-gutentags'
+" Plug 'ludovicchabant/vim-gutentags'
 
 " ======= Vim improvments ===
 Plug 'vim-scripts/bufkill.vim'
@@ -43,16 +43,20 @@ Plug 'Shougo/neosnippet-snippets'
 Plug 'fatih/vim-go', { 'for': 'go' }
 "Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
 "Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
-Plug 'moby/moby', {'rtp': '/contrib/syntax/vim/'}
+"Plug 'moby/moby', {'rtp': '/contrib/syntax/vim/'}
 Plug 'pangloss/vim-javascript'
 Plug 'leshill/vim-json'
 Plug 'lervag/vimtex'
 Plug 'davidhalter/jedi-vim'
+"Plug 'python-mode/python-mode'
 " Frontend
 Plug 'mattn/emmet-vim'
 Plug 'othree/html5.vim'
 Plug 'hail2u/vim-css3-syntax'
 Plug 'wookiehangover/jshint.vim'
+Plug 'tpope/vim-fugitive' "git integration
+Plug 'scrooloose/syntastic' "code syntaxis
+Plug 'Raimondi/delimitMate' "automatic closing of quotes, parenthesis...
 " Add plugins to &runtimepath
 "
 call plug#end()
