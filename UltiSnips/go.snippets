@@ -1,0 +1,10 @@
+# Snippets for Go
+
+# json field tag
+snippet jsono "\`json:key,omitempty\`"
+\`json:"${1:`!v  go#util#snippetcase(matchstr(getline("."), '\w\+'))`},omitempty"\`
+endsnippet
+
+snippet jsonco "\`json:camelKey,omitempty\`"
+\`json:"${1:`!v  go#util#camelcase(matchstr(getline("."), '\w\+'))`},omitempty"\`
+endsnippet

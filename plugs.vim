@@ -25,24 +25,25 @@ Plug 'Raimondi/delimitMate'
 Plug 'tomtom/tcomment_vim'
 Plug 'easymotion/vim-easymotion'
 
+"Plug 'ervandew/supertab'
+"Plug 'Valloric/YouCompleteMe'
 Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 function! DoRemote(arg)
   UpdateRemotePlugins
 endfunction
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
+"Plug 'Shougo/neosnippet'
+"Plug 'Shougo/neosnippet-snippets'
 Plug 'benekastah/neomake'
 Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'airblade/vim-gitgutter'
-Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnippet-snippets'
 
 "Plug 'majutsushi/tagbar'
 " ====== Languages ==========
 Plug 'fatih/vim-go', { 'for': 'go' }
-"Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
-"Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
+Plug 'elixir-lang/vim-elixir', { 'for': 'elixir' }
+Plug 'slashmili/alchemist.vim', { 'for': 'elixir' }
 "Plug 'moby/moby', {'rtp': '/contrib/syntax/vim/'}
 Plug 'pangloss/vim-javascript'
 Plug 'leshill/vim-json'

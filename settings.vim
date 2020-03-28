@@ -87,12 +87,22 @@ let NERDTreeMapOpenVSplit='v'
 let g:neocomplete#enable_at_startup = 1
 set completeopt-=preview
 " Plugin key-mappings.
-imap <C-k> <Plug>(neosnippet_expand_or_jump)
-smap <C-k> <Plug>(neosnippet_expand_or_jump)
-xmap <C-k> <Plug>(neosnippet_expand_target)
-let g:go_snippet_engine = "neosnippet"
+"imap <tab> <Plug>(neosnippet_expand_or_jump)
+"smap <tab> <Plug>(neosnippet_expand_or_jump)
+"xmap <tab> <Plug>(neosnippet_expand_target)
+"let g:go_snippet_engine = "neosnippet"
+"
+"let g:neosnippet#snippets_directory='~/.config/nvim/plugged/vim-go/gosnippets/snippets:~/.config/nvim/custom-snippets'
 
-let g:neosnippet#snippets_directory='~/.config/nvim/plugged/vim-go/gosnippets/snippets'
+" make YCM compatible with UltiSnips (using supertab)
+"let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+"let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+"let g:UltiSnipsJumpForwardTrigger = "<tab>"
+"let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
 set shell=/bin/bash
 
